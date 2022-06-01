@@ -20,12 +20,15 @@ body {
 }
 
 h1 {
-    text-align: center;
+    color: var(--orange);
+    font-size: 26px;
+    text-align: left;
 }
 
-article h1 {
-    color: var(--yellow);
-    text-align: left;
+h1.header {
+    color: var(--foreground);
+    font-size: 36px;
+    text-align: center;
 }
 
 a {
@@ -39,3 +42,15 @@ a:link {
 a:visited {
     color: var(--purple);
 }
+
+p.credits {
+    color: var(--green);
+    font-family: monospace;
+    font-weight: lighter;
+    text-align: center;
+}
+
+hr {
+    border: 1px dashed;
+}
+

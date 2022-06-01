@@ -14,9 +14,18 @@ body {
     background: var(--background);
     color: var(--foreground);
     font-family: sans-serif;
-    width:70%;
-    margin-left:auto;
-    margin-right:auto;
+    max-width: 850px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+::-webkit-scrollbar {
+	width: .66vw;
+	background-color: gray;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--red);
+	border-radius: 5px;
 }
 
 h1 {
@@ -54,3 +63,6 @@ hr {
     border: 1px dashed;
 }
 
+#buttons {
+    text-align: center;
+}
